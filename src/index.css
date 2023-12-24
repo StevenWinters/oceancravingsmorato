@@ -779,12 +779,9 @@ a {
 
 /* MISSION AND VISION */
 
-.ms-vs__card h3 {
-  font-size: 2.5rem;
-}
-
 .ms-vs__card p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  margin: 0 auto;
 }
 
 .ms-vs__grid {
@@ -795,6 +792,12 @@ a {
   .ms-vs__grid {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ms-vs__card p {
+    font-size: 1.4rem;
   }
 }
 
