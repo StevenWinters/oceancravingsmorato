@@ -1,5 +1,5 @@
 import { BiSolidDirectionRight } from "react-icons/bi";
-import { BsFillTelephoneFill } from "react-icons/bs";
+// import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 
 const ContactDetails = () => {
@@ -21,12 +21,12 @@ const ContactDetails = () => {
             </span>
             195 TOMAS MORATO , Quezon City, Philippines
           </li>
-          <li className="flex align--center gap--sm location__detail">
+          {/* <li className="flex align--center gap--sm location__detail">
             <span>
               <BsFillTelephoneFill size={25} />
             </span>
             0915 308 6116
-          </li>
+          </li> */}
           <li className="flex align--center gap--sm location__detail">
             <span>
               <GrMail size={25} />
