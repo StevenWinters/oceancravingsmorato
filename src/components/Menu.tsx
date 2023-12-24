@@ -38,6 +38,10 @@ const Menu = () => {
           </Button>
         </Link>
       </div>
+      <p className="menu__notice">
+        PRICE: All prices are subject to change without prior notice and are not
+        gauranteed.
+      </p>
     </section>
   );
 };
