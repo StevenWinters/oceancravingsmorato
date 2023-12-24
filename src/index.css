@@ -42,8 +42,8 @@ html {
 }
 
 .tagline {
-  font-size: 7.6rem;
-  margin-bottom: 3rem;
+  font-size: 7.993rem;
+  margin-bottom: 1rem;
   color: var(--color-light-text);
 }
 
@@ -51,7 +51,7 @@ html {
   font-size: 2.5rem;
   font-weight: 500;
   color: var(--color-light-text);
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .highlight,
@@ -71,23 +71,23 @@ h1,
 }
 
 h1 {
-  font-size: 6.2rem;
+  font-size: 5.61rem;
   margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 4.209rem;
   text-align: center;
   margin-bottom: 5rem;
 }
 
 h3 {
-  font-size: 3.4rem;
+  font-size: 3.157rem;
   margin-bottom: 2rem;
 }
 
 h4 {
-  font-size: 2.3rem;
+  font-size: 2.369rem;
   margin-bottom: 1rem;
 }
 
@@ -113,61 +113,58 @@ a {
 
 @media screen and (max-width: 1300px) {
   h1 {
-    font-size: 5.5rem;
+    font-size: 3.815rem;
   }
 
   .tagline {
-    font-size: 7rem;
+    font-size: 4.78rem;
   }
 
   .heading__description {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 4.5rem;
+    font-size: 3.052rem;
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.441rem;
   }
-}
 
-@media screen and (max-width: 1024px) {
-  h1 {
-    font-size: 5.3rem;
+  h4 {
+    font-size: 1.953rem;
+  }
+
+  p,
+  li {
+    font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 2.986rem;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 2.488rem;
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2.074rem;
+  }
+
+  h4 {
+    font-size: 1.728rem;
   }
 
   .tagline {
-    font-size: 6rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  h1 {
-    font-size: 4rem;
+    font-size: 3.33rem;
   }
 
-  h2 {
-    font-size: 3.5;
-  }
-
-  .tagline {
-    font-size: 5rem;
+  .heading__description {
+    font-size: 1.7rem;
   }
 }
 
@@ -177,7 +174,7 @@ a {
   border: 0;
   outline: 0;
   border-radius: 50px;
-  padding: 2rem 2.7rem;
+  padding: 1.3rem 2rem;
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -229,7 +226,7 @@ a {
 
 @media screen and (max-width: 1024px) {
   .badge {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     font-size: 2rem;
   }
 }
@@ -273,6 +270,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .img--logo {
+    width: 40px;
+  }
+
   .img--text {
     display: none;
   }
@@ -333,6 +334,12 @@ a {
 
 .container {
   max-width: 1500px;
+}
+
+@media screen and (max-width: 768px) {
+  .block {
+    padding: 5rem 1rem;
+  }
 }
 
 /* FLEX */
@@ -479,15 +486,15 @@ a {
 .hamburger__menu {
   background-color: var(--color-accent);
   border-radius: 100%;
-  padding: 1rem;
+  padding: 0.9rem;
   cursor: pointer;
 }
 
 .hamburger__bar {
   display: block;
   background-color: #fff;
-  width: 25px;
-  height: 3px;
+  width: 20px;
+  height: 2px;
   margin: 0.25rem 0;
   border-radius: 20px;
 }
@@ -549,10 +556,6 @@ a {
     text-align: center;
   }
 
-  .heading__description {
-    margin: 0 auto 5rem;
-  }
-
   .hero__btns {
     flex-direction: column;
     max-width: 600px;
@@ -597,7 +600,8 @@ a {
   }
 
   .selection__image {
-    width: 100px;
+    width: 135px;
+    padding: 0.5rem;
   }
 }
 
@@ -727,6 +731,11 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .menu__image {
+    border: 3px solid var(--color-primary);
+    padding: 0.5rem;
+  }
+
   .menu__heading {
     font-size: 5rem;
   }
@@ -752,7 +761,7 @@ a {
 
 @media screen and (max-width: 500px) {
   .menu__heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .menu__hero {
