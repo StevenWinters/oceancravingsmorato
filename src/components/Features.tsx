@@ -14,7 +14,11 @@ const Features = () => {
               <h3>{data.heading}</h3>
               <p>{data.description}</p>
             </div>
-            <img className="img img--500" src={data.src} alt={data.heading} />
+            <img
+              className="img img--500 feature__img"
+              src={data.src}
+              alt={data.heading}
+            />
           </article>
         ))}
       </div>

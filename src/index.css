@@ -619,6 +619,10 @@ a {
   .feature:nth-child(odd) .feature__description {
     order: -1;
   }
+
+  .feature__img {
+    padding: 1rem;
+  }
 }
 
 /* MENU */
