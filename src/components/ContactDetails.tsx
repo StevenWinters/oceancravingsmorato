@@ -1,6 +1,6 @@
 import { BiSolidDirectionRight } from "react-icons/bi";
 // import { BsFillTelephoneFill } from "react-icons/bs";
-import { GrMail } from "react-icons/gr";
+// import { GrMail } from "react-icons/gr";
 
 const ContactDetails = () => {
   return (
@@ -27,12 +27,12 @@ const ContactDetails = () => {
             </span>
             0915 308 6116
           </li> */}
-          <li className="flex align--center gap--sm location__detail">
+          {/* <li className="flex align--center gap--sm location__detail">
             <span>
               <GrMail size={25} />
             </span>
             pinkyp.lopez@gmail.com
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
