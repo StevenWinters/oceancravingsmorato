@@ -798,15 +798,34 @@ a {
   border-radius: 20px;
 }
 
-.location__map {
+.location__img {
   border-radius: 20px;
-  width: 100%;
 }
 
 .location__detail {
   font-size: 1.6rem;
   margin-bottom: 2.5rem;
   word-break: break-word;
+}
+
+.location__grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.location__sub-map {
+  margin-top: 2rem;
+  height: 200px;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .location__grid {
+    gap: 1rem;
+  }
+
+  .location__map {
+    max-height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -819,7 +838,21 @@ a {
   }
 
   .location__map {
-    height: 300px;
+    display: none;
+  }
+
+  .location__sub-map {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .location__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location__img {
+    margin-bottom: 1rem;
   }
 }
 
